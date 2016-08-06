@@ -30,6 +30,9 @@ getTinyDataSets <- function(cleanup=FALSE) {
     # Return a list of two data frames
     returnVal <- list(firstTinySet,secondTinySet)
     names(returnVal) <- c("firstTidySet","secondTidySet")
+    
+    write.table(secondTinySet,file="step5dataset.txt",row.names = FALSE)
+    
     return(returnVal)
     
 }
