@@ -1,6 +1,5 @@
 # Code Book for Coursea Data Cleaning Course Assignment
-by Tan Yih Siang
-last updated 06 Aug 2016
+by Yih Siang, last updated 06 Aug 2016
 
 ## Source of Data
 One of the most exciting areas in all of data science right now is wearable computing - see for example this [article](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/). Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data used for this assignment represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:

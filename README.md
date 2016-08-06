@@ -6,6 +6,7 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 
 ## Source of Data
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Note: Running the instructions below will download the zip file, unzip it, generate the data sets and cleanup the zip files and the unzipped data files
 
 ## Files in the project
 1. README.MD - This file
@@ -17,7 +18,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
   * Use descriptive names for the activities in the data set
 4. run_analysis.R - This is the R script that will perform step 2 and step 5 of the assignment. The getTinyDataSets() function will creates the tidy set for step 2 and tiny set for step 5 and return these two tidy data sets as a list.
 
-## How to run
+## Instructions 
 1. Checkout both load.R and run_analysis.R to your local disk
 2. From R Studio, set the working directory to where you have checkout the scripts `setwd(`directory`)`
 3. Load in the run_analysis.R script. It will inturn load the load.R.
