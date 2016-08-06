@@ -7,7 +7,7 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 ## Source of Data
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Note: Running the instructions below will download the zip file, unzip it, generate the data sets and cleanup the zip files and the unzipped data files
+Note: Running the instructions below will download the zip file, unzip it, generate the data sets and cleanup the zip files and the unzipped data files. So please connect to the Internet before running the instructions.
 
 ## Files in the project
 1. README.MD - This file
