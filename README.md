@@ -1,6 +1,5 @@
 # Coursea Data Cleaning Course Assignment
-by Tan Yih Siang
-last updated 06-Aug-2016
+by Yih Siang, last updated 06-Aug-2016
 
 ## Objective of this assignment
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
