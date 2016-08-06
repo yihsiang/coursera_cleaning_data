@@ -28,7 +28,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ```
 source("run_analysis.R")
-dataSets <- getTinyDataSets()
+dataSets <- getTinyDataSets(cleanup=TRUE)
 firstDataSet <- dataSets$firstTidySet
 secondDataSet <- dataSets$secondTidySet
 ```

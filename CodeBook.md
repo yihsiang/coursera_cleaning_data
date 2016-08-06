@@ -127,6 +127,128 @@ The second data set is a merge of the training and testing sets. The average of 
 There are total of 180 averages for the 30 subjects involved in the training or testing set for the 6 activities performed (i.e. 30 subjects x 6 activities = 180 rows)
 There are 75 variables in the data set. The feature measurements values are averages
 
+## Sample of data sets data
+### First three records of the first Data Set
+```
+> head(firstDataSet,3)
+   subject activity timeBodyAccelerometerMeanX timeBodyAccelerometerMeanY timeBodyAccelerometerMeanZ
+1:       1 STANDING                  0.2885845                -0.02029417                 -0.1329051
+2:       1 STANDING                  0.2784188                -0.01641057                 -0.1235202
+3:       1 STANDING                  0.2796531                -0.01946716                 -0.1134617
+   timeBodyAccelerometerStdDevX timeBodyAccelerometerStdDevY timeBodyAccelerometerStdDevZ
+1:                   -0.9952786                   -0.9831106                   -0.9135264
+2:                   -0.9982453                   -0.9753002                   -0.9603220
+3:                   -0.9953796                   -0.9671870                   -0.9789440
+   timeGravityAccelerometerMeanX timeGravityAccelerometerMeanY timeGravityAccelerometerMeanZ
+1:                     0.9633961                    -0.1408397                     0.1153749
+2:                     0.9665611                    -0.1415513                     0.1093788
+3:                     0.9668781                    -0.1420098                     0.1018839
+   timeGravityAccelerometerStdDevX timeGravityAccelerometerStdDevY timeGravityAccelerometerStdDevZ
+1:                      -0.9852497                      -0.9817084                      -0.8776250
+2:                      -0.9974113                      -0.9894474                      -0.9316387
+3:                      -0.9995740                      -0.9928658                      -0.9929172
+   timeBodyAccelerometerJerkMeanX timeBodyAccelerometerJerkMeanY timeBodyAccelerometerJerkMeanZ
+1:                     0.07799634                    0.005000803                   -0.067830808
+2:                     0.07400671                    0.005771104                    0.029376633
+3:                     0.07363596                    0.003104037                   -0.009045631
+   timeBodyAccelerometerJerkStdDevX timeBodyAccelerometerJerkStdDevY timeBodyAccelerometerJerkStdDevZ
+1:                       -0.9935191                       -0.9883600                       -0.9935750
+2:                       -0.9955481                       -0.9810636                       -0.9918457
+3:                       -0.9907428                       -0.9809556                       -0.9896866
+   timeBodyGyroscopeMeanX timeBodyGyroscopeMeanY timeBodyGyroscopeMeanZ timeBodyGyroscopeStdDevX
+1:           -0.006100849            -0.03136479             0.10772540               -0.9853103
+2:           -0.016111620            -0.08389378             0.10058429               -0.9831200
+3:           -0.031698294            -0.10233542             0.09612688               -0.9762921
+   timeBodyGyroscopeStdDevY timeBodyGyroscopeStdDevZ timeBodyGyroscopeJerkMeanX
+1:               -0.9766234               -0.9922053                 -0.0991674
+2:               -0.9890458               -0.9891212                 -0.1105028
+3:               -0.9935518               -0.9863787                 -0.1084857
+   timeBodyGyroscopeJerkMeanY timeBodyGyroscopeJerkMeanZ timeBodyGyroscopeJerkStdDevX
+1:                -0.05551737                -0.06198580                   -0.9921107
+2:                -0.04481873                -0.05924282                   -0.9898726
+3:                -0.04241031                -0.05582883                   -0.9884618
+   timeBodyGyroscopeJerkStdDevY timeBodyGyroscopeJerkStdDevZ timeBodyAccelerometerMagnitudeMean
+1:                   -0.9925193                   -0.9920553                         -0.9594339
+2:                   -0.9972926                   -0.9938510                         -0.9792892
+3:                   -0.9956321                   -0.9915318                         -0.9837031
+   timeBodyAccelerometerMagnitudeStdDev timeGravityAccelerometerMagnitudeMean
+1:                           -0.9505515                            -0.9594339
+2:                           -0.9760571                            -0.9792892
+3:                           -0.9880196                            -0.9837031
+   timeGravityAccelerometerMagnitudeStdDev timeBodyAccelerometerJerkMagnitudeMean
+1:                              -0.9505515                             -0.9933059
+2:                              -0.9760571                             -0.9912535
+3:                              -0.9880196                             -0.9885313
+   timeBodyAccelerometerJerkMagnitudeStdDev timeBodyGyroscopeMagnitudeMean
+1:                               -0.9943364                     -0.9689591
+2:                               -0.9916944                     -0.9806831
+3:                               -0.9903969                     -0.9763171
+   timeBodyGyroscopeMagnitudeStdDev timeBodyGyroscopeJerkMagnitudeMean
+1:                       -0.9643352                         -0.9942478
+2:                       -0.9837542                         -0.9951232
+3:                       -0.9860515                         -0.9934032
+   timeBodyGyroscopeJerkMagnitudeStdDev frequencyBodyAccelerometerMeanX
+1:                           -0.9913676                      -0.9947832
+2:                           -0.9961016                      -0.9974507
+3:                           -0.9950910                      -0.9935941
+   frequencyBodyAccelerometerMeanY frequencyBodyAccelerometerMeanZ frequencyBodyAccelerometerStdDevX
+1:                      -0.9829841                      -0.9392687                        -0.9954217
+2:                      -0.9768517                      -0.9735227                        -0.9986803
+3:                      -0.9725115                      -0.9833040                        -0.9963128
+   frequencyBodyAccelerometerStdDevY frequencyBodyAccelerometerStdDevZ
+1:                        -0.9831330                        -0.9061650
+2:                        -0.9749298                        -0.9554381
+3:                        -0.9655059                        -0.9770493
+   frequencyBodyAccelerometerJerkMeanX frequencyBodyAccelerometerJerkMeanY
+1:                          -0.9923325                          -0.9871699
+2:                          -0.9950322                          -0.9813115
+3:                          -0.9909937                          -0.9816423
+   frequencyBodyAccelerometerJerkMeanZ frequencyBodyAccelerometerJerkStdDevX
+1:                          -0.9896961                            -0.9958207
+2:                          -0.9897398                            -0.9966523
+3:                          -0.9875663                            -0.9912488
+   frequencyBodyAccelerometerJerkStdDevY frequencyBodyAccelerometerJerkStdDevZ
+1:                            -0.9909363                            -0.9970517
+2:                            -0.9820839                            -0.9926268
+3:                            -0.9814148                            -0.9904159
+   frequencyBodyGyroscopeMeanX frequencyBodyGyroscopeMeanY frequencyBodyGyroscopeMeanZ
+1:                  -0.9865744                  -0.9817615                  -0.9895148
+2:                  -0.9773867                  -0.9925300                  -0.9896058
+3:                  -0.9754332                  -0.9937147                  -0.9867557
+   frequencyBodyGyroscopeStdDevX frequencyBodyGyroscopeStdDevY frequencyBodyGyroscopeStdDevZ
+1:                    -0.9850326                    -0.9738861                    -0.9940349
+2:                    -0.9849043                    -0.9871681                    -0.9897847
+3:                    -0.9766422                    -0.9933990                    -0.9873282
+   frequencyBodyAccelerometerMagnitudeMean frequencyBodyAccelerometerMagnitudeStdDev
+1:                              -0.9521547                                -0.9561340
+2:                              -0.9808566                                -0.9758658
+3:                              -0.9877948                                -0.9890155
+   frequencyBodyAccelerometerJerkMagnitudeMean frequencyBodyAccelerometerJerkMagnitudeStdDev
+1:                                  -0.9937257                                    -0.9937550
+2:                                  -0.9903355                                    -0.9919603
+3:                                  -0.9892801                                    -0.9908667
+   frequencyBodyGyroscopeMagnitudeMean frequencyBodyGyroscopeMagnitudeStdDev
+1:                          -0.9801349                            -0.9613094
+2:                          -0.9882956                            -0.9833219
+3:                          -0.9892548                            -0.9860277
+   frequencyBodyGyroscopeJerkMagnitudeMean frequencyBodyGyroscopeJerkMagnitudeStdDev
+1:                              -0.9919904                                -0.9906975
+2:                              -0.9958539                                -0.9963995
+3:                              -0.9950305                                -0.9951274
+   angletBodyAccelerometerMeangravity angletBodyAccelerometerJerkMeangravityMean
+1:                        -0.11275434                                0.030400372
+2:                         0.05347695                               -0.007434566
+3:                        -0.11855926                                0.177899480
+   angletBodyGyroscopeMeangravityMean angletBodyGyroscopeJerkMeangravityMean angleXgravityMean
+1:                         -0.4647614                            -0.01844588        -0.8412468
+2:                         -0.7326262                             0.70351059        -0.8447876
+3:                          0.1006992                             0.80852908        -0.8489335
+   angleYgravityMean angleZgravityMean
+1:         0.1799406       -0.05862692
+2:         0.1802889       -0.05431672
+3:         0.1806373       -0.04911782
+```
+
 
 ## License of the Data Source
 License:
