@@ -12,10 +12,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 1. README.MD - This file
 2. CodeBook.MD - Explaining the approach used and how the tidy data sets are created
 3. load.R - This is the R script that handles the downloading of the data, loading of the data to data frames. The load function() in this script will also perform the steps 1, 3 and 4 in the assignment to
-. Merge the x, y and subject files
-. Merge the training and test sets
-. Labels the variables using descriptive names
-. Use descriptive names for the activities in the data set
+  * Merge the x, y and subject files
+  * Merge the training and test sets
+  * Labels the variables using descriptive names
+  * Use descriptive names for the activities in the data set
 4. run_analysis.R - This is the R script that will perform step 2 and step 5 of the assignment. The getTinyDataSets() function will creates the tidy set for step 2 and tiny set for step 5 and return these two tidy data sets as a list.
 
 ## How to run
