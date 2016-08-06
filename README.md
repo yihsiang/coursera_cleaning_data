@@ -26,9 +26,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 5. Use `dataSets$firstTidySet` to get the data set for mean and standad deviation
 6. Use `dataSets$secondTidySet` to get the data set for aggregated average for each variable for each activity and each subject
 
-`
+```
 source("run_analysis.R")
 dataSets <- getTinyDataSets()
 firstDataSet <- dataSets$firstTidySet
 secondDataSet <- dataSets$secondTidySet
-`
+```

@@ -40,8 +40,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
     * `test/y_test.txt`: Similar to training set, except this is from the testing set
     * `test/subject_test.txt`: Similar to training set, except this is from the testing set
 
-4. Data file not used
-For the purpose of this assignment, the files from 'Inertial Signals' directory for both training and testing sets were not used.
+4. For the purpose of this assignment, the files from 'Inertial Signals' directory for both training and testing sets were not used.
 
 
 ## How Data is Manupulated to get the Tidy Sets
@@ -73,7 +72,8 @@ The first data set is a merge of both training and testing set. Only the Mean an
 There are total of 10,299 measures for the 30 subjects involved in the training or testing set
 There are 75 variables in the data set
 
-`
+
+```
 > nrow(firstDataSet)
 [1] 10299
 > sort(summary(firstDataSet))
@@ -120,7 +120,7 @@ There are 75 variables in the data set
 [71] "angletBodyGyroscopeMeangravityMean"            "angletBodyGyroscopeJerkMeangravityMean"       
 [73] "angleXgravityMean"                             "angleYgravityMean"                            
 [75] "angleZgravityMean"   
-`
+```
 
 ### Second Data Set
 The second data set is a merge of the training and testing sets. The average of only the Mean and StdDev (Standard Deviation) variables were extracted by subject and activity performed
